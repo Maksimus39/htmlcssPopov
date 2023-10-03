@@ -1,4 +1,4 @@
-p {
+p,h4,#myList {
     color: #404040;
 }
 
@@ -9,3 +9,4 @@ p {
 .new{
     color:#6bc5e3
 }
+
