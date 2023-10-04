@@ -18,7 +18,7 @@ p {
     /*border-width: 2px;*/
     /*border-style: solid;*/
     /*border-color:#FFA537 ;*/
-    border: 2px solid #FFD373 ;
+    border: 2px solid #FFD373;
 }
 
 /*#tableOl{*/
@@ -29,7 +29,7 @@ p {
 
 .new {
     color: #6bc5e3;
-    font:italic bold 16px Tahoma;
+    font: italic bold 16px Tahoma;
 }
 
 ul li {
@@ -64,9 +64,19 @@ a:active {
 a {
     text-decoration: none;
     border-bottom: 3px dashed #c32017;
-    color: cornflowerblue;
+
 }
 
 .new4 {
     text-align: justify;
+}
+
+ul {
+    /*list-style-type: upper-roman;*/
+    list-style: inside url('CSS/images/arrow.png');
+   
+}
+
+ul li{
+    border: 3px solid #6bc5e3;
 }
