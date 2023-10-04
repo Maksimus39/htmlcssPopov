@@ -2,6 +2,10 @@ p,h4,#myList {
     color: #404040;
 }
 
+p{
+    font-family:'Courier New' ;
+}
+
 #header{
     color:#c32017;
 }
