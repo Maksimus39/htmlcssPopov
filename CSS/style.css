@@ -31,3 +31,11 @@ a:hover{
 a:active{
   color: #008000;
 }
+
+.new2{
+    font-style: italic;
+}
+
+.new3{
+    font-weight: bold;
+}
