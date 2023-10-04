@@ -5,10 +5,12 @@ p,h4,#myList {
 p{
     font-family:'Courier New' ;
     font-size: 14px;
+    text-indent: 25px;
 }
 
 #header{
     color:#c32017;
+    text-align: center;
 }
 
 .new{
@@ -43,4 +45,7 @@ a:active{
 
 a{
     text-decoration: none;
+}
+.new4{
+text-align: justify;
 }
