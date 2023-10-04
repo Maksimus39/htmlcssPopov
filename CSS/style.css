@@ -15,7 +15,17 @@ p {
     color: #c32017;
     text-align: center;
     text-transform: uppercase;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    /*border-color:#FFA537 ;*/
+    border: 2px solid #FFD373 ;
 }
+
+/*#tableOl{*/
+/*    border-width: 4px;*/
+/*    border-style: double;*/
+/*    border-color: #5F46FF;*/
+/*}*/
 
 .new {
     color: #6bc5e3;
@@ -53,6 +63,8 @@ a:active {
 
 a {
     text-decoration: none;
+    border-bottom: 3px dashed #c32017;
+    color: cornflowerblue;
 }
 
 .new4 {
