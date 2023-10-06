@@ -1,46 +1,24 @@
 body {
     font: 14px Tahoma;
-    color: #2C28FF;
-    border: solid #FF2D50
+    color: #333333;
 }
 
-
-/*p, h4, #myList {*/
-/*    color: #404040;*/
-/*}*/
-
 p {
-    /*font-family: 'Courier New';*/
-    /*font-size: 14px;*/
     text-indent: 25px;
     line-height: 1.5;
-    /*word-spacing: 4px;*/
-    /*letter-spacing: 1px;*/
 }
 
 #header {
-    /*color: #c32017;*/
     text-align: center;
     text-transform: uppercase;
-    /*border-width: 2px;*/
-    /*border-style: solid;*/
-    /*border-color:#FFA537 ;*/
-    border: 2px solid #FFD373;
 }
 
-/*#tableOl{*/
-/*    border-width: 4px;*/
-/*    border-style: double;*/
-/*    border-color: #5F46FF;*/
-/*}*/
-
-.new {
-    /*color: #6bc5e3;*/
-    /*font: italic bold 16px Tahoma;*/
+ol {
+    color: #FF41E9
 }
 
-ul li {
-    /*color: #cc0000*/
+li {
+    color: #A02DFF /* */
 }
 
 a:link {
@@ -71,19 +49,25 @@ a:active {
 a {
     text-decoration: none;
     border-bottom: 3px dashed #c32017;
-
 }
 
 .new4 {
     text-align: justify;
 }
 
-ul {
-    /*list-style-type: upper-roman;*/
-    list-style: inside url('CSS/images/arrow.png');
-
+.new6 {
+    color: #5E2951;
 }
 
-/*ul li{*/
-/*    border: 3px solid #6bc5e3;*/
-/*}*/
+#liSuper {
+    color: #0FD611;
+}
+
+#myList li.new6 {
+color: #4EB7D7;
+}
+
+ul {
+    list-style: inside url('CSS/images/arrow.png');
+}
+
