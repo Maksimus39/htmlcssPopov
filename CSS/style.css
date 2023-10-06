@@ -1,10 +1,17 @@
-p, h4, #myList {
-    color: #404040;
+body {
+    font: 14px Tahoma;
+    color: #2C28FF;
+    border: solid #FF2D50
 }
 
+
+/*p, h4, #myList {*/
+/*    color: #404040;*/
+/*}*/
+
 p {
-    font-family: 'Courier New';
-    font-size: 14px;
+    /*font-family: 'Courier New';*/
+    /*font-size: 14px;*/
     text-indent: 25px;
     line-height: 1.5;
     /*word-spacing: 4px;*/
@@ -12,7 +19,7 @@ p {
 }
 
 #header {
-    color: #c32017;
+    /*color: #c32017;*/
     text-align: center;
     text-transform: uppercase;
     /*border-width: 2px;*/
@@ -28,12 +35,12 @@ p {
 /*}*/
 
 .new {
-    color: #6bc5e3;
-    font: italic bold 16px Tahoma;
+    /*color: #6bc5e3;*/
+    /*font: italic bold 16px Tahoma;*/
 }
 
 ul li {
-    color: #cc0000
+    /*color: #cc0000*/
 }
 
 a:link {
@@ -74,9 +81,9 @@ a {
 ul {
     /*list-style-type: upper-roman;*/
     list-style: inside url('CSS/images/arrow.png');
-   
+
 }
 
-ul li{
-    border: 3px solid #6bc5e3;
-}
+/*ul li{*/
+/*    border: 3px solid #6bc5e3;*/
+/*}*/
