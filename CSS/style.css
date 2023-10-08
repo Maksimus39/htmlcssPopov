@@ -4,6 +4,7 @@ body {
     padding: 15px;
     margin: 0 auto;
     width: 1000px;
+    background-color: bisque;
 }
 
 p {
@@ -16,6 +17,9 @@ p {
     padding: 40px 20px;
     margin: 20px auto 5px auto;
     width: 550px;
+    background-color: darksalmon;
+    color: beige;
+    border: 1px solid #faa21a;
 }
 
 
@@ -69,13 +73,5 @@ ul {
     list-style: inside url('CSS/images/arrow.png');
 }
 
-#span1{
-    border: 1px solid maroon;
-    margin: 0 30px;
-    display: block;
-}
 
-ol li{
-    display: inline;
-    border: 1px solid maroon;
-}
+

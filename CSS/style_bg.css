@@ -1,0 +1,17 @@
+body {
+    background-color: cadetblue;
+}
+
+#main {
+    width: 812px;
+    height: 535px;
+    margin: 28px auto;
+    outline: 1px solid maroon;
+    background-image: url("../CSS/images/bg.jpg");
+}
+
+#main h1 {
+    text-align: center;
+    padding-top: 182px;
+    font: 36px Verdana;
+}
