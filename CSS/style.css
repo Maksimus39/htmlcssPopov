@@ -69,4 +69,13 @@ ul {
     list-style: inside url('CSS/images/arrow.png');
 }
 
+#span1{
+    border: 1px solid maroon;
+    margin: 0 30px;
+    display: block;
+}
 
+ol li{
+    display: inline;
+    border: 1px solid maroon;
+}
