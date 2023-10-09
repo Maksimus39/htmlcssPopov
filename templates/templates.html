@@ -3,57 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Формы</title>
+    <link rel="stylesheet" href="../CSS/templates.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<form action="formdata.php" method="GET" name="form1"></form>
+<div id="wrapper">
+    <form action="../formdata.php" method="GET" name="form1">
 
-<fieldset>
-    <legend>Ввод личных данных</legend>
-    <p><label>Введите ваше имя (макс 10 символов): <input type="text" name="name" size="10" maxlength="11"></label></p>
-    <p><label>Введите ваше имя (макс 10 символов): <input type="password" name="password" size="10" maxlength="11"></label></p>
-</fieldset>
-
-<fieldset>
-    <legend>Вопросы</legend>
-    <p>Вы любите экономить время? <label><input type="radio" name="time" value="yes" checked>Да</label><label><input
-            type="radio" name="time" value="no">Нет</label></p>
+        <fieldset>
+            <legend>Ввод личных данных</legend>
+            <p class="question"><label for="name">Введите ваше имя (макс 10 символов): </label></p>
+            <p><input type="text" name="name" size="40" maxlength="11" id="name"></p>
 
 
+            <p class="question"><label for="password">Введите ваш пароль (макс 10 символов): </label></p>
+            <p><input type="password" name="password" size="40"
+                      maxlength="11" id="password"></p>
+        </fieldset>
 
-<p>Какими инструментами для экономии времени вы любите пользоваться?</p>
-<p>
-    <label><input type='checkbox' name="ez" checked>Ежедневник</label>
-    <label><input type='checkbox' name="hr" disabled>Хронометраж</label>
-    <label><input type='checkbox' name="sn">Свои наработки</label>
-</p>
-
-<p>Сколько часов в день вы спите?</p>
-<p><select name="sleep" size="5" multiple>
-    <option>5</option>
-    <option>6</option>
-    <option>7</option>
-    <option>8</option>
-    <option>8+</option>
-</select></p>
-
-<p><label for="sleep">Сколько часов в день вы спите?</label></p>
-<p><select name="sleep" id="sleep">
-    <option>5</option>
-    <option>6</option>
-    <option>7</option>
-    <option selected>8</option>
-    <option>8+</option>
-</select></p>
-</fieldset>
-<p><label>Поделись своими наработками в экономии времени?</label></p>
-<p><textarea name="text" cols="30" rows="6" id="text" >Тестовый текст...</textarea></p>
-
-<p><input type="submit" name="submit" value="отправить"> <input type="reset" name="reset" value="сброс"></p>
-
-<p><input type="image" src="images/ibutton.png" name="imageButton"></p>
-
-<p><input type="button" value="Кнопка" name="button"></p>
+        <fieldset>
+            <legend>Вопросы</legend>
+            <p class="question">Вы любите экономить время? <label><input type="radio" name="time" value="yes"
+                                                        checked>Да</label><label><input
+                    type="radio" name="time" value="no">Нет</label></p>
 
 
+            <p class="question">Какими инструментами для экономии времени вы любите пользоваться?</p>
+            <p>
+                <label><input type='checkbox' name="ez" checked>Ежедневник</label>
+                <label><input type='checkbox' name="hr" disabled>Хронометраж</label>
+                <label><input type='checkbox' name="sn">Свои наработки</label>
+            </p>
+
+            <p class="question">Сколько часов в день вы спите?</p>
+            <p><select name="sleep" size="5" multiple>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>8+</option>
+            </select></p>
+
+            <p class="question"><label for="sleep">Сколько часов в день вы спите?</label></p>
+            <p><select name="sleep" id="sleep">
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option selected>8</option>
+                <option>8+</option>
+            </select></p>
+        </fieldset>
+        <p class="question tp"><label>Поделись своими наработками в экономии времени?</label></p>
+        <p><textarea name="text" cols="30" rows="6" id="text">Тестовый текст...</textarea></p>
+
+        <p><input type="submit" name="submit" value="отправить"> <input type="reset" name="reset" value="сброс"></p>
+
+        <p><input type="image" src="images/blueButton.jpg" name="imageButton"></p>
+
+        <p><input type="button" value="Кнопка" name="button"></p>
+
+    </form>
+</div>
 </body>
 </html>

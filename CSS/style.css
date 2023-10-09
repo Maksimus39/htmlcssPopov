@@ -73,5 +73,27 @@ ul {
     list-style: inside url('CSS/images/arrow.png');
 }
 
+table, td, th {
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td, th {
+    height: 50px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+th {
+    background-color: chartreuse;
+    background-image: url("../CSS/images/tablebg.jpg");
+}
+
 
 
