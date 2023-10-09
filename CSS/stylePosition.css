@@ -27,15 +27,24 @@ body {
     top: 0;
 }
 
-#button{
-position: absolute;
+#button {
+    position: absolute;
     left: 280px;
     top: -9px;
+    z-index: 1;
 }
-#operator{
+
+#operator {
     position: fixed;
     width: 22px;
     height: 180px;
     top: 250px;
     left: 0;
+}
+
+#bird {
+    position: absolute;
+    left: 261px;
+    top: -9px;
+    z-index: 2;
 }
