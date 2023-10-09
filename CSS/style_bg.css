@@ -9,7 +9,7 @@ body {
     width: 812px;
     height: 921px;
     margin: 28px auto;
-/ / outline: 1 px solid maroon;
+// outline: 1 px solid maroon;
     background-image: url("../CSS/images/bg.jpg");
 
 }
@@ -18,16 +18,18 @@ body {
     text-align: center;
     padding-top: 182px;
     font: 36px Verdana;
-/ / outline: 1 px solid maroon;
+// outline: 1 px solid maroon;
     background-image: url("../CSS/images/logo.png");
     background-repeat: no-repeat;
     background-position: 136px 190px;
 }
 
 #wrapper {
-    //outline: 1px solid maroon;
-    background-image: url("../CSS/images/tel.jpg");
-    background-repeat: no-repeat;
-    background-position: 0 180px;
-    background-attachment: fixed;
+// outline: 1 px solid maroon;
+    /*background-image: url("../CSS/images/tel.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 180px;*/
+    /*background-attachment: fixed;*/
+
+    background: url("../CSS/images/tel.jpg") no-repeat 0 180px fixed;
 }
