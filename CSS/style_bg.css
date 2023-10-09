@@ -1,14 +1,15 @@
 body {
     background-color: cadetblue;
     background-image: url("../CSS/images/pattern.png");
-
+    margin: 0;
+    padding: 0;
 }
 
 #main {
     width: 812px;
-    height: 535px;
+    height: 921px;
     margin: 28px auto;
-   // outline: 1px solid maroon;
+/ / outline: 1 px solid maroon;
     background-image: url("../CSS/images/bg.jpg");
 
 }
@@ -17,8 +18,16 @@ body {
     text-align: center;
     padding-top: 182px;
     font: 36px Verdana;
-   // outline: 1px solid maroon;
+/ / outline: 1 px solid maroon;
     background-image: url("../CSS/images/logo.png");
     background-repeat: no-repeat;
     background-position: 136px 190px;
+}
+
+#wrapper {
+    //outline: 1px solid maroon;
+    background-image: url("../CSS/images/tel.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 180px;
+    background-attachment: fixed;
 }
