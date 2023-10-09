@@ -1,0 +1,22 @@
+body{
+    background-color: #4EB7D7;
+    font: 11px Verdana ;
+    color: #20883E;
+}
+
+
+#wrapper {
+    width: 650px;
+    margin: 30px auto;
+    background-color: #D3D7D4;
+}
+
+#header {
+    height: 75px;
+    background-image: url("../HTML/images/redHeader.png");
+}
+
+
+#content {
+    padding: 20px 30px;
+}
