@@ -2,7 +2,7 @@
 
 body {
     background-color: #4EB7D7;
-    font: 11px Verdana;
+    font: 14px Verdana;
     color: #20883E;
 }
 
@@ -51,6 +51,5 @@ body {
     z-index: 2;
 }
 #test{
-   // visibility: hidden;
-    display: none;
+ padding: inherit;
 }
